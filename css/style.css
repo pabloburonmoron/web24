@@ -1,0 +1,354 @@
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+    color: rgb(18, 0, 110);
+}
+
+/* For desktop: */
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+/* For mobile: */
+@media screen and (max-width: 1000px) {
+    .container {
+        width: 100%;
+    }
+}
+/* For desktop: */
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* For mobile: */
+@media screen and (max-width: 1000px) {
+    .row {
+        flex-wrap: wrap;
+    }
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+/* For desktop: */
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+/* For mobile: */
+@media only screen and (max-width: 1000px) {
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+
+/* For desktop: */
+[class*="col-"] {
+    padding: 15px;
+}
+
+.shadow {
+    box-shadow: 0 0 20px gainsboro;
+    border-radius: 10px;
+}
+nav ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+nav li {
+    display: inline;
+    padding: 10px;
+    font-size: 20px;
+}
+/* For mobile: */
+@media screen and (max-width: 1000px) {
+    nav li {
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+    }
+    nav ul {
+        background-color: rgb(243, 251, 254);
+    }
+}
+
+nav li a {
+    color: rgb(18, 0, 110);
+}
+
+nav li:hover {
+    background-color:  rgb(225, 245, 253);
+}
+
+.text-right{
+    text-align: right;
+}
+
+a {
+    text-decoration: none;
+}
+.text-center {
+    text-align: center;
+}
+.py-3 {
+    padding: 16px 0;
+}
+.px-3 {
+    padding: 0 16px;
+}
+.p-3 {
+    padding: 16px;
+}
+
+.bg-azul-o {
+    background-color: rgb(0 157 222);
+}
+.bg-azul-c {
+    background-color: rgb(240, 249, 252);
+}
+.bg-orange {
+    background-color: orange;
+}
+.text-white {
+    color: white;
+}
+.text-red {
+    color: red;
+    font-size: 30px;
+    background-color: cyan;
+}
+footer h1 {
+    border-bottom-left-radius: 10px;
+}
+footer h1 {
+    border-bottom-right-radius: 10px;
+}
+
+h1 {
+    margin: 0;
+}
+
+#btnmenu {
+    font-size: 40px;
+    display: none;
+}
+/* For mobile: */
+@media screen and (max-width: 1000px) {
+    #btnmenu {
+        display: inline;
+    }
+    #menu{
+        display: none;
+    }
+}
+@media screen and (max-width: 1600px) and (min-width: 1000px)  {
+    #menu{
+        display: block;
+    }
+}
+.etiqueta {
+    color: red;
+    font-size: 28px;
+    font-weight: bold;
+}
+.atributo {
+    color: green;
+    font-size: 28px;
+    font-weight: bold;
+}
+#enlaces a {
+    color: blue;
+    text-decoration: underline;
+    font-size: 24px;
+}
+#listas .customdes li {
+    list-style-type: disc;
+}
+#listas .customdes li li {
+    list-style-type: disc;
+}
+#listas .customdes li li li{
+    list-style-type: disc;
+}
+#listas .customord li {
+    list-style-type: upper-roman;
+}
+#listas .customord li li {
+    list-style-type: upper-alpha;
+}
+#listas .customord li li li{
+    list-style-type: decimal;
+}
+#listas .customico li li {
+    list-style-image: url("../img/corazon.png");
+}
+#listas .customico li li li{
+    list-style-image: none;
+    list-style-type: circle;
+}
+#listas .listadefcustom  {
+    width: 30%;
+}
+#listas .listadefcustom dt {
+    display: inline;
+    background-color: aquamarine;
+    color: rgb(15, 15, 36);
+    font-size: 22px;
+    font-weight: bold;
+}
+
+
+ .encabezado th{
+    background-color: rgb(1, 3, 60);
+    color:rgb(237, 249, 255) ;
+    
+ }
+ .encabezado2 th{
+    background-color: rgb(224, 178, 25);
+    color:rgb(61, 16, 0) ;
+    
+ }
+ .encabezado2 td{
+    background-color: rgb(239, 54, 65);
+    color:rgb(61, 16, 0) ;
+    
+ }
+ 
+    .boton{
+        border: 0;
+        border-radius: 10px;
+    }
+ 
+.Login{
+    background-color: rgb(22, 3, 68);
+    color: rgb(255, 255, 255);
+ }
+ 
+ .comentarios{
+    font-size: 30px;
+ }
+ .inputsHTML5{
+    background-color: rgb(22, 3, 68);
+    color: rgb(255, 255, 255);
+ }
+.Aceptar{
+    background-color: rgb(78, 6, 6);
+    color: rgb(255, 255, 255);
+    border: 0;
+    
+ }
+
+.enviar{
+   background-color: rgb(22, 3, 68);
+   color: rgb(255, 255, 255);
+  
+}
+ .formlogin {
+    float: left;
+    width: 50%;
+ }
+ 
+ .Formulario2{
+    float: right;
+    width: 50%;
+ }
+ .cb {
+    clear: both;
+}
+
+
+
+ .Formulario3{
+   background-color:rgb(226, 250, 250) ;
+   
+    width: 50%;
+    margin: 0 auto;
+
+ }
+
+
+
+
+ .Formulario3 label{
+    background-color: rgb(102, 72, 207);
+    color: rgb(255, 255, 255);
+ }
+
+ .col3 {
+    width: 30%;
+    float: left;
+}
+.col3 img {
+    padding: 2px;
+}
+video {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+}
+audio {
+    display: block;
+    margin: 0 auto;
+}
+.text-center {
+    text-align: center;
+}
+.foto1{
+width: 33%;
+
+}
