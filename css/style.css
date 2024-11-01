@@ -268,7 +268,33 @@ h1 {
     color:rgb(61, 16, 0) ;
     
  }
- 
+ .BD{
+    background-color: rgb(129, 255, 129);
+    
+ }
+ .PROG{
+  background-color:   rgb(100, 180, 239);
+ }
+ .SISI{
+   background-color:  rgb(101, 170, 151);
+ }
+ .LMSG{
+    background-color:   rgb(210, 211, 109);
+  }
+  .PIMD{
+    background-color:  rgb(255, 200, 152);
+  }
+  .IPCG{
+    background-color:  rgb(255, 161, 98);
+  }
+  .ENDE{
+    background-color:  rgb(201, 160, 200);
+  }
+
+  
+
+  
+
     .boton{
         border: 0;
         border-radius: 10px;
