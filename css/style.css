@@ -290,7 +290,20 @@ h1 {
   .ENDE{
     background-color:  rgb(201, 160, 200);
   }
-
+  .SASP{
+    background-color: rgb(40, 200, 200);
+  }
+  
+  .DASP{
+    background-color:rgb(255, 255, 99);
+  }
+  .IPE{
+    background-color:rgb(254, 128, 129);
+  }
+  .centrado{
+    color:rgb(4, 147, 124) ;
+ 
+  }
   
 
   
