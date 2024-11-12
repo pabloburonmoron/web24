@@ -241,13 +241,13 @@ h1 {
     list-style-image: url("../img/moneda2_mario.png");
 }
     
-}
+
 #listas .listadefcustom  {
     width: 30%;
 }
 #listas .listadefcustom dt {
     display: inline;
-    background-color: aquamarine;
+    background-color: rgb(219, 16, 28);
     color: rgb(15, 15, 36);
     font-size: 22px;
     font-weight: bold;
@@ -372,6 +372,7 @@ h1 {
  .col3 {
     width: 30%;
     float: left;
+    
 }
 .col3 img {
     padding: 2px;
